@@ -5,9 +5,8 @@
   z-index: 999;
   background-color: white;
   padding: 20px;
-  -webkit-box-shadow: 0px 0px 9px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 9px -5px rgba(0, 0, 0, 0.5);
-  width: 30%;
+  -webkit-box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.5);
 
   h1 {
     margin-bottom: 30px;
@@ -31,7 +30,6 @@
       h1 {
         font-size: 18px;
         font-weight: 500;
-        margin-bottom: 8px;
       }
 
       p {
@@ -58,10 +56,6 @@
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 20px;
-
-    .sub{
-      font-weight: bold !important;
-    }
   }
 
   button {

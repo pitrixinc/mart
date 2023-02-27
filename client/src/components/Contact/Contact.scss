@@ -1,25 +1,20 @@
 .contact{
-  width: 100%;
   background-color: #2879fe;
   color: white;
   padding: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
 
   .wrapper{
     width: 50%;
-    display: block;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     input{
-      width: 90%;
       padding: 10px;
       border: none;
       border-radius: 5px 0 0  5px;
-      margin-top: 5px;
-      margin-bottom: 5px;
     }
 
     button{
@@ -28,52 +23,11 @@
       background: #333;
       border-radius: 0 5px 5px 0;
       border: none;
-      width:100%;
-      margin-bottom: 5px;
     }
 
     .icons{
-      text-align: center;
       display: flex;
       gap: 10px;
-      align-items: center;
-    }
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .contact{
-    width: 100%;
-    background-color: #2879fe;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-  
-    .wrapper{
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  
-      input{
-        padding: 10px;
-        border: none;
-        border-radius: 5px 0 0  5px;
-      }
-  
-      button{
-        padding: 10px;
-        color: white;
-        background: #333;
-        border-radius: 0 5px 5px 0;
-        border: none;
-      }
-  
-      .icons{
-        display: flex;
-        gap: 10px;
-      }
     }
   }
 }
